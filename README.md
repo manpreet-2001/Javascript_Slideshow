@@ -26,6 +26,9 @@ When coding something like a JavaScript slideshow, half of the problem is unders
 
 10. Using JavaScript `setInterval()` function, make the slideshow automatically change images every five seconds.
 
+> [!Note]
+> There are sample code files for steps one through six. Try to complete each step without the samples. Use them as a last resort.
+
 ***
 
 ## Repo Resources
