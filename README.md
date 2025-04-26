@@ -1,41 +1,41 @@
 # JavaScript Slideshow
 
-A basic vanilla JavaScript slideshow.
+A simple slideshow built using vanilla JavaScript.
 
-## Coding from Scratch
+## Building It from Scratch
 
-When coding something like a JavaScript slideshow, half of the problem is understanding how to split the lager objective into small steps. Download a copy of the `index.html`, `styles.caa`, and `slideshow.js` files and then follow these steps. Do not proceed to the next step until the current one is done and tested. 
+Creating a JavaScript slideshow involves breaking the larger goal into manageable steps. Begin by downloading the `index.html`, `styles.css`, and `slideshow.js` files. Follow each step carefully—test and complete one before moving on to the next.
 
-1. The images all need to be stacked on top of each other instead of underneath each other. Use CSS to place the images on top of each other.
-  
-2. Only one image meedds to be visible at a time. Use CSS to hide all the images but the first one.
-   
-3. In the `slideshow.js` file, define a `current` variable to track the current image. Set it to zero. This variable will go form zero, to three, and then back to zero (because there ar four images).
+1. Use CSS to stack all images on top of one another, rather than placing them vertically.
 
-4. Define a `total` variable to track the number of images. Set it to four.
+2. Make only the first image visible. Use CSS to hide the others.
 
-5. Add a click event to the next button. For now `console.log()` the word "next" when the button is clicked. This will confirm that the button is working.
+3. In `slideshow.js`, create a `current` variable to track the current image index. Initialize it to `0`. This variable will cycle from `0` to `3`, and then back to `0` (since there are four images).
 
-6. Inside the `next` button click event, increase `current` variable by one. Use `console.log()` to confirm that the variable has increased.
+4. Create a `total` variable and set it to `4` to represent the total number of images.
 
-7. Inside the `next` button click event, add an if statement that will reset the `current` variable to zero when the `current` variable is too high.
+5. Add a click event listener to the "Next" button. For now, use `console.log("next")` to ensure the button is working.
 
-8. Inside the `next` button click event, hide all images and then display the image based on the number inside the `current` variable. 
+6. Inside the "Next" button's event handler, increment the `current` variable by 1. Use `console.log()` to confirm it’s updating.
 
-9. Redo steps five through eight except for a previous button.
+7. Add a conditional check to reset `current` back to `0` when it exceeds the total number of images.
 
-10. Using JavaScript `setInterval()` function, make the slideshow automatically change images every five seconds.
+8. Within the same event handler, hide all images and display only the one that corresponds to the `current` index.
 
-> [!Note]
-> There are sample code files for steps one through six. Try to complete each step without the samples. Use them as a last resort.
+9. Repeat steps 5 through 8 for the "Previous" button.
 
-***
+10. Use JavaScript's `setInterval()` function to automatically switch images every five seconds.
 
-## Repo Resources
+> [!NOTE]
+> Sample code files are available for steps 1 through 6. Try to complete each step on your own before referencing them.
 
-* [Visual Studio Code](https://code.visualstudio.com/)
+---
+
+## Useful Resources
+
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 <br>
 <a href="https://codeadam.ca">
-<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
+  <img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
